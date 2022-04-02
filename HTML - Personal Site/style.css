@@ -1,0 +1,30 @@
+/* p{
+  color: blue;
+  /*width: 500px;
+  border: 1px solid black; */
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  }
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h4, h3, p, li,table{
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    font-size: 18px;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
